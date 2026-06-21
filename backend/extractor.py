@@ -26,7 +26,7 @@ from typing import Optional
 from groq import AsyncGroq
 
 from models import CompanyRecord, Industry
-from scrapper import ScrapeResult
+from backend.scraper import ScrapeResult
 
 log = logging.getLogger("extractor")
 

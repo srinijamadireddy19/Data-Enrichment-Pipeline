@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from extractor import _build_prompt, _parse_response, extract_one, extract_all
 from models import CompanyRecord
-from scrapper import ScrapeResult
+from backend.scraper import ScrapeResult
 
 
 

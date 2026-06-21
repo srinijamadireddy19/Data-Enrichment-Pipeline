@@ -1,4 +1,4 @@
-from backend.scrapper import scrape_urls_sync
+from backend.scraper import scrape_urls_sync
 import sys
 
 test_urls = sys.argv[1:] or [

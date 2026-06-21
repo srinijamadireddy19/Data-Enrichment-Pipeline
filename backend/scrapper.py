@@ -323,12 +323,12 @@ if __name__ == "__main__":
         "https://github.com",
         "https://huggingface.co",
     ]
-
+    test_url = ["https://claude.ai/"]
     print(f"\n{'='*60}")
     print(f"  Scraping {len(test_urls)} URL(s) …")
     print(f"{'='*60}\n")
 
-    results = scrape_urls_sync(test_urls)
+    results = scrape_urls_sync(test_url)
 
     for r in results:
         print(r)
